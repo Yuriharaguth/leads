@@ -16,7 +16,12 @@ class CadastroController extends Controller
 
     public function store(Request $request)
     {
-        //
+
+        $this->validate($request, 
+        [
+            'nome' => 'required|alpha',
+            'telefone' => 'required|numeric'
+        ]);
     }
 
 }

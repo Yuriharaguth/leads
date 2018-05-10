@@ -1,0 +1,12 @@
+.navbar-inverse {
+    background-color: #326aad !important;
+    border-color: #326aadad;
+}
+
+.asterisco {
+    color: red;
+}
+
+.retira-margin-top {
+    margin-top: -40px;
+}
