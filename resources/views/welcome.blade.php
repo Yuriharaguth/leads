@@ -22,23 +22,22 @@
           <div class="row retira-margin-top">
             <div class="col-md-8 col-md-offset-2">
 
-              <div class="panel-body">
-                <div class="page-header">
-                  <h2>Cadastro LEADS</h2>
-                </div>
-              </div>
-
-              <div class="row">
                 <div class="panel-body">
-                  <div class="col-md-10">
-                    <p>Ajude com qualquer valor, cadastre seu telefone para entrarmos em contato</p>
+                  <div class="page-header">
+                    <h2>Cadastro Doador</h2>
                   </div>
                 </div>
+
+                <div class="row">
+                  <div class="panel-body">
+                    <div class="col-md-10">
+                      <p>Cadastre-se e ajude! <br>Doe e ajude a fazer a diferença!</p>
+                    </div>
+                  </div>
+                </div>
+
               </div>
-
-
-          </div>
-        </div>
+            </div>
 
 
 
@@ -77,7 +76,7 @@
 
                     <div class="form-group">
                       <label for="Telefone Residencial">Telefone *</label>
-                      <input id="telefone_1" type="tel" class="form-control" name="telefone" placeholder="Telefone" onkeyup="apenasNumeros()">
+                      <input id="telefone_1" type="tel" class="form-control" maxlength="11" name="telefone" placeholder="Telefone" onkeyup="apenasNumeros()">
                     </div>
 
                     <button type="submit" class="btn btn-default">Enviar</button>
