@@ -66,7 +66,7 @@
 
                     <div class="form-group">
                       <label for="nome">Nome *</label>
-                      <input type="text" class="form-control" name="nome" placeholder="Nome">
+                      <input id="nome_doador" type="text" class="form-control" name="nome" placeholder="Nome" onkeyup="validaNome()">
                     </div>
 
                     <div class="form-group">

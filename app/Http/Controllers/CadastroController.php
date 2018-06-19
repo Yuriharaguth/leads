@@ -10,7 +10,7 @@ use GuzzleHttp\Client;
 
 class CadastroController extends Controller
 {
-    private $url = 'http://192.168.1.60:8086/api/captacao-leads/salvar';
+    private $url = 'https://doacao.xbrain.com.br/api/captacao-leads/salvar';
 
     public function index()
     {
@@ -27,7 +27,7 @@ class CadastroController extends Controller
     private function validarDados(Request $dados)
     {
         $this->validate($dados, [
-            'nome' => 'required',
+            'nome' => 'required|min:4',
             'telefone' => 'required|numeric',
         ]);
     }
